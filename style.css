@@ -1,15 +1,75 @@
 *{
     margin: 0;
     text-decoration: none;
+    color: black;
 }
 
-.barra{
-    transform: rotate(45deg);
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 26, 41);
+    width: 100vw;
+    height: 100vh;
 }
 
-div {
+.palavra{
+    
+    
+}
+
+.barra1{
+    background-color: rgb(5, 49, 79);
+    color: white;
+    height: 100vh;
     width: 80px;
-    height: 80px;
-    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
 }
-  
+.barra2{
+    background-color: rgb(7, 55, 7);
+    color: white;
+    height: 100vh;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.barra3{
+    background-color: rgb(133, 52, 5);
+    color: white;
+    height: 100vh;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.barra4{
+    
+    background-color: rgb(129, 16, 5);
+    width: 100vw;
+}
+.prin{
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 100vh;
+}
+
+input{
+    transform: rotate(90deg);
+    
+    height: 80px;
+    border: none;
+    
+}
